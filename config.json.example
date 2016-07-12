@@ -1,0 +1,10 @@
+{
+  "mqtt": {},
+  "nedb": {
+    "filename": "members.db",
+    "autoload": true
+  },
+  "tsdClient": {
+    "namespace": "techspace/devices"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "techspace-device-manager",
+  "version": "1.0.0",
+  "description": "TechSpace Device Manager",
+  "main": "index.js",
+  "scripts": {
+    "start": "DEBUG=TechSpaceDeviceClient babel-node index.js"
+  },
+  "author": "Miles Goodings",
+  "license": "MIT",
+  "dependencies": {
+    "debug": "^2.2.0",
+    "mqtt": "^1.12.0",
+    "nedb": "^1.8.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.10.1",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-stage-0": "^6.5.0"
+  }
+}
